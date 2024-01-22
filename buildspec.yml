@@ -29,7 +29,7 @@ phases:
   build:
     commands:
       # Build the Spring Boot application using Maven
-      - mvn clean install
+      - ./mvnw clean install
 
 artifacts:
   files: target/customer-service-0.0.1-SNAPSHOT.jar
